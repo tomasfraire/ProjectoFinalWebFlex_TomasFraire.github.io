@@ -1,0 +1,21 @@
+// Import utilities
+@import "./utilities/variables";
+@import "./utilities/colors";
+@import "./utilities/mixins";
+
+// Import globals
+@import "./global/resetcss";
+@import "./global/allviews";
+
+// Import teamplate
+@import "./template/nav";
+@import "./template/gallery";
+
+// Import views
+@import "./views/home";
+@import "./views/contact";
+@import "./views/projects";
+@import "./views/aboutMe";
+@import "./views/skills";
+
+
