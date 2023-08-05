@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75), rgba(31, 3, 48, 0.65)), url(../Assets/Img/Background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+span {
+  color: #8d12f1;
+  display: inline-block;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: transform 0.3s;
+}
+
+span:hover {
+  transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
+}
+
+.W-tx-cl {
+  color: #e6e0da;
+}
+
+footer {
+  background-color: rgb(2, 0, 4);
+  padding: 1.5rem;
+}
+
+.footer__iconos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__item {
+  margin: 0 10px;
+}
+
+.footer__item a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer__item a:hover {
+  color: #8d12f1;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  font-size: 1.25rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8d12f1;
+  border-bottom: 2px solid #8d12f1;
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid #8d12f1;
+}
+
+.technology-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 280px) and (max-width: 449px) {
+  .technology-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (min-width: 450px) and (max-width: 1000px) {
+  .technology-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 3000px) {
+  .technology-icon {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  .homeIcon {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 6000px) {
+  .homeIcon {
+    width: 50px;
+    height: 50px;
+  }
+}
+/*Estilo boton linkedin*/
+.linkedin-btn {
+  background-color: #0085d2;
+  color: azure;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  transition: scale 0.25s;
+}
+
+.linkedin-btn:hover {
+  scale: 1.25;
+}
+
+.sideILus {
+  width: 600px;
+}
+
+.homeMain div {
+  align-items: center;
+  padding-top: 25px;
+}
+
+.homeMain h1 {
+  padding-top: 50px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.homeMain p {
+  text-align: left;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

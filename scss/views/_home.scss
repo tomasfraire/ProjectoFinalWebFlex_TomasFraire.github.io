@@ -1,0 +1,80 @@
+
+.technology-icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (min-width: 280px) and (max-width: 449px) {
+    .technology-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 1000px) {
+    .technology-icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 3000px) {
+    .technology-icon {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+@media (min-width: 50px) and (max-width: 1000px) {
+    .homeIcon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 6000px) {
+    .homeIcon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/*Estilo boton linkedin*/
+
+.linkedin-btn{
+    background-color: #0085d2;
+    color: azure;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    transition: scale 0.25s;
+}
+
+.linkedin-btn:hover{
+    scale: 1.25;
+}
+
+.sideILus{
+    width: 600px;
+}
+
+.homeMain div{
+    align-items: center;
+    padding-top: 25px;
+}
+
+.homeMain h1{
+    padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.homeMain p{
+    text-align: left;
+    color: aliceblue;
+    font-size: 1.5rem;
+}

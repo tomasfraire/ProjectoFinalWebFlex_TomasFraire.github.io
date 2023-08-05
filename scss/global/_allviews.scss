@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.75),rgba(31, 3, 48, 0.65)), 
+    url(../Assets/Img/Background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+span {
+    color: $bold-color;
+    display: inline-block;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition: transform 0.3s;
+}
+
+span:hover {
+    transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
+}
+.W-tx-cl{
+    color: $white-color;
+}
+
+footer{
+    background-color: rgb(2, 0, 4);
+    padding: 1.5rem;
+}
+
+.footer__iconos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item {
+    margin: 0 10px;
+}
+
+.footer__item a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer__item a:hover {
+    color: $bold-color;
+}
