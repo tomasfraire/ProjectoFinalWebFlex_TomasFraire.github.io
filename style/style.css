@@ -146,6 +146,38 @@ footer {
   font-size: 1.5rem;
 }
 
+.aboutMe__Main {
+  padding: 20px;
+  color: #e6e0da;
+}
+.aboutMe__Main h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.aboutMe__Main p {
+  font-size: 1.5rem;
+}
+.aboutMe__Main .row {
+  justify-content: center;
+  margin: 50px auto;
+}
+.aboutMe__Main .row .col-lg-6 {
+  justify-content: center;
+  padding: 30px;
+}
+.aboutMe__Main .row .col-lg-6 .row {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutMe__Main .row .col-lg-6 .row .col-md-6 {
+  text-align: center;
+  margin: 10px;
+}
+.aboutMe__Main .row .col-lg-6 img {
+  max-width: 100%;
+}
+
 .responsive-img {
   max-width: 100%;
   height: auto;
