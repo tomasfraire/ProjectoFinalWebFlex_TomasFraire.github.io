@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&family=Roboto&family=Roboto+Mono:wght@200;400;600&display=swap");
 .color-bold {
   color: #8d12f1;
@@ -528,6 +529,7 @@ nav {
   margin-top: 2rem;
 }
 
+/* Estilos para el slider */
 .certSlide {
   position: relative;
   width: 100%;
@@ -547,16 +549,19 @@ nav {
   object-fit: cover;
 }
 
+/* Estilos para dispositivos mayores a 1400px */
 @media (min-width: 1400px) {
   .certSlide {
     display: block;
   }
 }
+/* Restablecer las reglas para dispositivos menores a 1400px */
 @media (max-width: 1400px) {
   .certSlide {
     display: none;
   }
 }
+/* Estilos para la galería */
 .gallery-container .galleryS {
   display: flex;
   flex-wrap: wrap;
@@ -578,6 +583,8 @@ nav {
   position: relative;
   opacity: 0.8;
   transition: transform 0.3s ease, opacity 0.3s ease;
+  /* Media query para dispositivos menores a 780px */
+  /* Media query para dispositivos menores a 550px */
 }
 .gallery-container .galleryS .gallery-item img {
   max-width: 100%;
@@ -594,13 +601,44 @@ nav {
 }
 @media (max-width: 780px) {
   .gallery-container .galleryS .gallery-item {
-    width: 80%;
+    width: 30%;
   }
 }
 @media (max-width: 550px) {
   .gallery-container .galleryS .gallery-item {
     width: 20%;
   }
+}
+
+/* Estilos para las cards */
+.custom-card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 20px rgb(0, 0, 0);
+}
+.custom-card .card-body {
+  height: 300px;
+}
+.custom-card .card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.custom-card .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.custom-card .card-text {
+  font-size: 14px;
+  color: #444;
+  font-weight: 400;
 }
 
 .responsive-img {
