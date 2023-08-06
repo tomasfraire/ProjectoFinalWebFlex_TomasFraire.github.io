@@ -7,6 +7,14 @@
   background-color: #8d12f1;
 }
 
+.color-green {
+  color: #06bd00;
+}
+
+.bg-green {
+  background-color: #06bd00;
+}
+
 .color-white {
   color: #e6e0da;
 }
@@ -244,6 +252,69 @@ nav {
   text-align: left;
   color: aliceblue;
   font-size: 1.5rem;
+}
+
+/* Easter egg */
+.containerEasterEgg {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  display: inline-block;
+}
+
+.hidden-content {
+  position: absolute;
+  top: -40%;
+  right: 290%;
+  background-color: white;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0s 0.3s;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.containerEasterEgg:hover .hidden-content {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.Easter__iconos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.Easter__item {
+  margin: 10px;
+}
+
+.Easter__item a {
+  font-size: 24px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.Easter__item a:hover {
+  transform: scale(1.2);
+}
+
+.fa-trophy {
+  opacity: 0.05;
+  transition: opacity 0.3s;
+}
+
+.fa-trophy:hover {
+  opacity: 1;
+  color: yellow;
 }
 
 .contact-form {

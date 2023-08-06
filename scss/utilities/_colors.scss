@@ -6,6 +6,7 @@ $bold-color: #8d12f1;
 $white-color: #e6e0da;
 
 $orange-color: #ff6600;
+$green-color: #06bd00;
 $blue-color: #1674b8;
 $purple-color: #6f42c1;
 $light-gray-color: #949494;
@@ -26,6 +27,14 @@ $light-bold-color: lighten($bold-color, 20%);
 
 .bg-bold {
     background-color: $bold-color;
+}
+
+.color-green {
+    color: $green-color
+}
+
+.bg-green {
+    background-color: $green-color;
 }
 
 .color-white {
