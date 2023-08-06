@@ -1,2 +1,118 @@
+
+
+
+// Colores personalizados
 $bold-color: #8d12f1;
 $white-color: #e6e0da;
+
+$orange-color: #ff6600;
+$blue-color: #1674b8;
+$purple-color: #6f42c1;
+$light-gray-color: #949494;
+$dark-gray-color: #333;
+$black-color: #000;
+$dark-blue-color: #00008b;
+$pink-color: #CD6799;
+
+// Colores basados en el $bold-color
+$dark-bold-color: darken($bold-color, 20%);
+$light-bold-color: lighten($bold-color, 20%);
+
+
+// Estilos de las clases de colores personalizados
+.color-bold {
+    color: $bold-color;
+}
+
+.bg-bold {
+    background-color: $bold-color;
+}
+
+.color-white {
+    color: $white-color;
+}
+
+.bg-white {
+    background-color: $white-color;
+}
+
+.color-orange {
+    color: $orange-color;
+}
+
+.bg-orange {
+    background-color: $orange-color;
+}
+
+.color-blue {
+    color: $blue-color;
+}
+
+.bg-blue {
+    background-color: $blue-color;
+}
+
+.color-purple {
+    color: $purple-color;
+}
+
+.bg-purple {
+    background-color: $purple-color;
+}
+
+.color-light-gray {
+    color: $light-gray-color;
+}
+
+.bg-light-gray {
+    background-color: $light-gray-color;
+}
+
+.color-dark-gray {
+    color: $dark-gray-color;
+}
+
+.bg-dark-gray {
+    background-color: $dark-gray-color;
+}
+
+.color-black {
+    color: $black-color;
+}
+
+.bg-black {
+    background-color: $black-color;
+}
+
+.color-dark-blue {
+    color: $dark-blue-color;
+}
+
+.bg-dark-blue {
+    background-color: $dark-blue-color;
+}
+
+  // Estilos basados en el $bold-color
+.color-dark-bold {
+    color: $dark-bold-color;
+}
+
+.bg-dark-bold {
+    background-color: $dark-bold-color;
+}
+
+.color-light-bold {
+    color: $light-bold-color;
+}
+
+.bg-light-bold {
+    background-color: $light-bold-color;
+}
+
+.color-pink {
+    color: $pink-color;
+}
+
+.bg-pink {
+    background-color: $pink-color;
+}

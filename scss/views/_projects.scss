@@ -1,1 +1,115 @@
+#carouselExampleAutoplaying {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
+    @media (max-width: 1200px) {
+        max-width: 95%;
+    }
+}
+
+.carousel-inner {
+    height: auto; 
+}
+
+.carousel-item img {
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+/*Galeria------------------------------------------*/
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    justify-content: center;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0px 10px 30px $dark-bold-color;
+        cursor: pointer;
+    }
+
+
+    @media (min-width: 1000px) {
+        &:hover {
+            box-shadow: 0px 10px 30px $dark-bold-color;
+            transform: scale(1.2);
+        }
+    }
+}
+
+/*Modal*/
+
+.modal-body {
+    .d-flex {
+    color: black;
+    }
+
+    .icon-container {
+    font-size: 2rem;
+    }
+
+    img{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .imgB{
+        border: 2px solid black;
+    }
+}
+
+.modal-title{
+    color: black;
+}
+
+/*iconos propios*/
+.iconPS{
+    margin-top: 1rem;
+    border: 3px solid $blue-color;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 20%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo_C-sharp{
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25%;
+    font-weight: bold;
+}
+
+
+.fa-spinner {
+    scale: 2;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinnerDiv {
+    text-align: center;
+}
