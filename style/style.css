@@ -149,7 +149,7 @@ span {
 }
 
 span:hover {
-  transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
+  transform: translateY(-10px);
 }
 
 .likeSpan {
@@ -159,7 +159,7 @@ span:hover {
   transition: transform 0.3s;
 }
 .likeSpan:hover {
-  transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
+  transform: translateY(-10px);
 }
 
 .W-tx-cl {
@@ -555,7 +555,7 @@ nav {
     display: block;
   }
 }
-/* Restablecer las reglas para dispositivos menores a 1400px */
+/* Slider display none para dispositivos menores a 1400px */
 @media (max-width: 1400px) {
   .certSlide {
     display: none;

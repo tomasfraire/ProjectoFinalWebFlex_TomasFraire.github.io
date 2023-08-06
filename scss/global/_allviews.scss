@@ -34,7 +34,7 @@ span {
 }
 
 span:hover {
-    transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
+    transform: translateY(-10px);
 }
 
 .likeSpan{
@@ -44,7 +44,7 @@ span:hover {
     transition: transform 0.3s;
 
     &:hover{
-        transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
+        transform: translateY(-10px);
     }
 }
 .W-tx-cl{
