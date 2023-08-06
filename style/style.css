@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&family=Roboto&family=Roboto+Mono:wght@200;400;600&display=swap");
 .color-bold {
   color: #8d12f1;
 }
@@ -8,11 +8,11 @@
 }
 
 .color-green {
-  color: #06bd00;
+  color: #09ff00;
 }
 
 .bg-green {
-  background-color: #06bd00;
+  background-color: #09ff00;
 }
 
 .color-white {
@@ -113,8 +113,28 @@ img {
   width: 100%;
 }
 
+p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+span {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75), rgba(31, 3, 48, 0.65)), url(../Assets/Img/Background.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.95), rgba(26, 0, 0, 0.85)), url(../Assets/Img/Background.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -124,9 +144,20 @@ span {
   transform: translateZ(0);
   backface-visibility: hidden;
   transition: transform 0.3s;
+  text-shadow: 2px 5px 5px #000000, -2px -2px 5px #000000;
 }
 
 span:hover {
+  transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
+}
+
+.likeSpan {
+  display: inline-block;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: transform 0.3s;
+}
+.likeSpan:hover {
   transform: translateY(-10px); /* Movimiento hacia arriba de 2px al pasar el cursor */
 }
 
@@ -159,6 +190,13 @@ footer {
 
 .footer__item a:hover {
   color: #8d12f1;
+}
+
+.roman-numerals-list {
+  list-style: upper-roman;
+  margin-left: 20px;
+  font-family: "Noto Sans HK", sans-serif;
+  font-weight: 400;
 }
 
 .navbar-nav .nav-link {
@@ -479,6 +517,15 @@ nav {
 }
 .aboutMe__Main .row .col-lg-6 img {
   max-width: 100%;
+}
+
+.accordion-body p {
+  font-weight: 600;
+  font-size: small;
+}
+
+.accordion-body ol {
+  margin-top: 2rem;
 }
 
 .certSlide {
